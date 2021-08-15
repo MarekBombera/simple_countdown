@@ -1,0 +1,51 @@
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+}
+
+.clockDate-container {
+	display: grid;
+	place-items: center;
+	margin-top: 30px;
+}
+
+.countdown-container {
+	margin-top: 40px;
+}
+
+.message-container {
+	margin-top: 10px;
+}
+
+.message {
+	font-size: 1.9rem;
+}
+
+.date {
+	width: 180px;
+	height: 40px;
+	padding-left: 30px;
+	border-radius: 13px;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.countdown-background {
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 13px;
+	padding: 12px 20px;
+	font-size: 1.2rem;
+}
+
+.countdown-numbers {
+	background-color: red;
+	padding: 5px;
+	border-radius: 8px;
+}
